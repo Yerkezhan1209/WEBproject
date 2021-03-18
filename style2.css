@@ -1,0 +1,75 @@
+html {
+	background-color: grey;
+}
+
+body {
+	font-family: Arial;
+	margin: 0 auto;
+	padding: 10px 50px;
+	text-align: center;
+}
+
+header {
+	background-color: darkolivegreen;
+}
+
+nav {
+	font-size: 16px;
+	line-height: 22px;
+	padding: 10px;
+	margin-top: 15px;
+}
+
+nav ul li {
+	display: inline;
+	padding-left: 150px;
+}
+
+nav ul li a {
+	text-decoration-line: none;
+	color: white;
+}
+
+nav ul li a:hover {
+	text-decoration-line: underline;
+	text-decoration-color: chocolate;
+	color: chocolate;
+}
+
+.today {
+	background-color: bisque;
+}
+
+#button {
+	background-color: chocolate;
+	font-size: 24px;
+	line-height: 45px;
+	color: black;
+	border-color: black;
+	border-width: 2px;
+	border-radius: 5px;
+	padding: 0 15px;
+}
+
+.col-md-12 {
+	background-color: bisque;
+	padding: 20px;
+}
+
+#button:hover {
+	border-width: 5px;
+}
+
+#end {
+	background-color: darkolivegreen;
+	padding: 10px;
+}
+
+#end .container .row .col-md-12 {
+	background-color: darkolivegreen;
+	color: white;
+} 
+
+#end p {
+	color: white;
+}

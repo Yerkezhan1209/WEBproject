@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Online Nutrition assistant</title>
+	<link rel="stylesheet" href="style.css">
+	<script   src="https://code.jquery.com/jquery-3.5.1.js"   integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="   crossorigin="anonymous"></script>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+</head>
+<body>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-1">
+                    <img class="img-fluid" src="images/logo.jpg" alt="logo">
+                </div>
+				<div class="col-md-11">
+					<nav>
+						<ul>
+							<li><a href="#top">HOME</a></li>
+							<li><a href="#onepoint">ASIAN CUISINE</a></li>
+							<li><a href="#twopoint">EUROPEAN CUISINE</a></li>
+							<li><a href="Page1.html">CALCULATE MY DAILY NORM</a></li>
+							<li><a href="Page2.html">CALCULATE TODAY'S FOOD INTAKE</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header>
+    <section class="promo">
+    	<div class="container">
+        	<div class="row">
+	        	<div class="col-md-8">
+	        		<img class="img-fluid" src="images/pic.jpg" alt="logo">
+           		</div>
+           		<div class="col-md-4" id="welcome">
+           			<h2>WELCOME</h2>
+           			<h3>to your personal Online Nutrition Assistant!</h3>
+           			<br>
+           			<p>Here you can:</p>
+           			<ul>
+						<li>Get information about Asian Cuisine</li>
+						<li>Get information about European Cuisine</li>
+						<li>Calculate your daily food intake norm</li>
+						<li>Calculate your today's food intake</li>
+					</ul>
+           		</div>
+        	</div>
+        </div>
+    </section>
+	<section id="onepoint">
+    	<div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>ASIAN CUISINE</h2>
+                    <button id="btnFadeOut1" class="button1">Hide</button>
+                    <button id="btnFadeIn1" class="button2">Show</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="asia-list">
+            <div class="container" id="box1">
+                <div class="row">
+                    <div class="col-md-4 text-center">
+                        <img class="img-fluid" src="images/food1.jpg" alt="Korean Cuisine">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="content mt-100">
+                            <h4>Korean cuisine</h4>
+                            <p>Korean food is some of the healthiest on earth, with an emphasis on vegetables, meats cooked simply and without much oil, and a near obsession with the fermented vegetable kimchi, which can be something of an acquired taste for non-Koreans. Much of the food that exists in Korea today and the customs surrounding it have come from royal cuisine and the complex customs of the ancient court. The food is a study in balance with careful consideration given to temperature, spiciness, colour and texture along with considered presentation. Starting with ritual bowls of rice and soup, the main meal is built around numerous shared side dishes selected to complement each other. The number of side dishes may vary from two to a dozen or more but everyday meals will include at least a few. All dishes are served at once to share, rather than in courses. A Korean banquet consists of many dishes cooked in various ways, including being steamed and simmered, pan-fried and stewed, fermented and raw.</p>
+                            <a href="https://www.youtube.com/embed/toDq6POhvu8" target="_blank" class="trailer1">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="content mt-100">
+                            <h4>Japanese cuisine</h4>
+                            <p>Japanese cuisine is known for its beauty and delightful subtle flavors. Traditional Japanese fare always manages to look like a work of art, since it is based on washoku. Apart from that, it's incredibly healthy as well, which is deemed the reason why Japanese people live a long life. That being said, it's no wonder why Japanese cuisine is loved across the globe. Traditional Japanese food is usually based off steamed white rice, which can be served with miso soup and other side dishes like fish or pickled vegetables as well as with a main protein and sauce. Instead of rice, many Japanese dishes are noodle-based; soba noodles and udon noodles are the most popular. Traditionally, noodles are eaten as a main dish and do not come with any sides. Japanese food is rich in regional specialties. In the Kanto region, Monja-yaki is a very popular, pancake dish while in Hokkaido, uni, or sea urchin, and other types of seafood dishes are most popular.</p>
+                            <a href="https://www.youtube.com/embed/7mz9UKbGyzo" target="_blank" class="trailer2">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <img class="img-fluid" src="images/food2.jpg" alt="Japanese Cuisine">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 text-center">
+                        <img class="img-fluid" src="images/food3.jpg" alt="Chinese Cuisine">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="content mt-100">
+                            <h4>Chinese cuisine</h4>
+                            <p>Chinese cuisine has a long history, and is one of the Chinese cultural treasures. It is famous all over the world. Chinese cookery has developed and matured over the centuries, forming a rich cultural content It is characterized by fine selection of ingredients, precise processing, particular care to the amount of fire, and substantial nourishment. Local flavors and snacks, and special dishes have formed according to regions, local products, climate, historical factors, and eating habits. The staple food in China is usually rice and wheat. The local flavors and superb cooking form the present famous Chinese Eight Cuisines from the eight provinces of Shandong, Sichuan, Guangdong, Jiangsu, Zhejiang, Fujian, Hunan and Anhui, each of which has its own characteristics. China can be divided into many geographical areas, and each area has a distinct style of cooking. The ingredients used in the food are based on the natural agricultural products of the region.</p>
+                            <a href="https://www.youtube.com/embed/UyqdH0_Ukzk" target="_blank" class="trailer1">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="content mt-100">
+                            <h4>Taiwanese cuisine</h4>
+                            <p>Taiwanese cooking is a branch of Chinese cuisine, so meals tend to be based around white rice, while pork is the most commonly eaten meat. Chicken is common; beef is enjoyed, except by the small portion of the population who for traditional (rather than religious) reasons never consume it. Noodles made from wheat or rice flour are also popular. Thin soups are served with almost every meal. Taiwanese food is seldom very spicy. Most of the rice eaten in Taiwan is grown on the island, with certain parts of Hualien and Taitung being renowned for the quality of their grains. Taiwan also grows an immense range of vegetables. Cabbage is a staple. Considered a rather dreary leafy green by many Westerners, in the hands of Taiwanese cooks it becomes a delicious stir-fry with garlic. Cauliflower, broccoli, asparagus, eggplants, carrots and potatoes are widely consumed.</p>
+                            <a href="https://www.youtube.com/embed/z9_hTouNWVE" target="_blank" class="trailer2">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <img class="img-fluid" src="images/food4.jpg" alt="Taiwanese Cuisine">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 text-center">
+                        <img class="img-fluid" src="images/food5.jpg" alt="Indian Cuisine">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="content mt-100">
+                            <h4>Indian Cuisine</h4>
+                            <p>The specialty of Indian cuisine is its variety of spices that make each dish exotic, delicious, and stand out from the rest of the cuisines in the world. Indian food is not just tasty but it's healthy too due to the presence of some nicest spices that are known for several health benefits. Indian cuisine has most commonly six flavors: sour, sweet, salty, bitter, astringent, and pungent. Every region in India has its delicacies and distinct styles of cooking. Since the cooking method varies with changing areas or regions, each dish has something unique about itself. To be precise, about 31 dishes define the Indian cuisines. Indian food is based on the combination of three types of doshas, i.e. Vata, Kapha, and Pitta. These doshas are generated by the elements found in nature, such as earth, fire, water, air, and ether. Indians are known to define their nutrition based on their particular dominant dosha.</p>
+                            <a href="https://www.youtube.com/embed/tqVMB1ZefKE" target="_blank" class="trailer1">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="twopoint">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2>EUROPEAN CUISINE</h2>
+                        <button id="btnFadeOut2" class="button1">Hide</button>
+                        <button id="btnFadeIn2" class="button2">Show</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="europe-list">
+            <div class="container" id="box2">
+                <div class="row">
+                    <div class="col-md-4 text-center">
+                        <img class="img-fluid" src="images/food6.jpg" alt="Italian Cuisine">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="content mt-100">
+                            <h4>Italian Cuisine</h4>
+                            <p>Many people think that Italian cuisine only includes pasta dishes, such as spaghetti and lasagna, and minestrone soup. However, visitors to this country soon realize that Italians enjoy a wide variety of foods. Italy has nineteen distinct regions with their own cuisine. Additionally, the cuisine of this area changes with the weather. Because Italians prize fresh ingredients, summer cuisine differs greatly from winter cuisine. Beautiful ripe fruits and vegetables are found on most Italian tables. Additionally, a variety of artesian bread is served with each meal. The number one ingredient in Italian cuisine is, of course, olive oil. Mild olive oil is used for cooking while more expensive, more flavorful extra virgin oil is used drop by drop, on salads or to finish dishes with. Good dried pasta is not a second-rate product in Italy: fresh and dried pasta each have their benefits. However, it is important to choose a decent (Italian) brand of dry pasta, because cheap pasta becomes fibrous during cooking.</p>
+                            <a href="https://www.youtube.com/embed/MyPKPRv0q7s" target="_blank" class="trailer1">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="content mt-100">
+                            <h4>French cuisine</h4>
+                            <p>French food and cooking are generally considered the backbone and underpinning of many cuisines across the Western world. The influence and recognition of classical French cooking techniques are legendary. This status is precisely why French cuisine can be intimidating for a beginner to learn. Typical French foods rely heavily on local products. Fresh apples, berries, haricot verts, leeks, mushrooms, various squash, and stone fruits are among the most commonly used products. Poultry, beef, lamb, and veal are readily available year-round; game meat is especially popular and abundant during the hunting season that runs from early autumn to February. No matter the location, France has an abundance of artisanal cheese and wine. French cuisine is a unique, cultural experience that melds flavorful, nutritious foods with beauty, leisure, and therapeutic preparation. Making and savoring French food is an art that takes a lifetime to master, yet requires that time stands still to appreciate its splendor.</p>
+                            <a href="https://www.youtube.com/embed/UMzaDb7n_a0" target="_blank" class="trailer2">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <img class="img-fluid" src="images/food7.jpg" alt="French Cuisine">
+                    </div>
+                </div>
+               <div class="row">
+                    <div class="col-md-4 text-center">
+                        <img class="img-fluid" src="images/food8.jpg" alt="British Cuisine">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="content mt-100">
+                            <h4>British Cuisine</h4>
+                            <p>British cuisine is the specific set of cooking traditions and practices associated with the United Kingdom. Historically, British cuisine means "unfussy dishes made with quality local ingredients, matched with simple sauces to accentuate flavour, rather than disguise it." However, British cuisine has absorbed the cultural influence of those that have settled in Britain, producing hybrid dishes, such as the South Asian chicken tikka masala, hailed as "Britain's true national dish". British dishes include fish and chips, the Sunday roast, steak and kidney pie, and bangers and mash. British cuisine has several national and regional varieties, including English, Scottish and Welsh cuisine, which each have developed their own regional or local dishes, many of which are geographically indicated foods such as Cheshire cheese, the Yorkshire pudding, Arbroath Smokier, and Welsh cakes.</p>
+                            <a href="https://www.youtube.com/embed/MVYjLXP9AO8" target="_blank" class="trailer1">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="content mt-100">
+                            <h4>Spanish Cuisine</h4>
+                            <p>The biggest thing you'll notice about Spanish cuisine is that there is a huge emphasis on freshness, regional dishes and most of all, seafood and produce.  These elements combine to make up one of the tastiest cuisines out of any country in the world, let alone Europe. The two basic ingredients of Spanish food are olive oil and garlic; in fact, it's not uncommon for the only common ingredients used throughout the country to be garlic and olive oil. However, because Spain is comprised of distinct geographical regions settled by different ethnic and cultural groups, and because the weather varies from province to province, the regional cuisines are in fact very different. Cocido, olla, guiso, estofado, or escudella are the Spanish terms for stew. This is one dish that could be called characteristic of Spain, although each region has its own version. The Spanish do not only stew, they roast, fry, and saute many foods.</p>
+                            <a href="https://www.youtube.com/embed/F9XfTMm2CyM" target="_blank" class="trailer2">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <img class="img-fluid" src="images/food9.jpg" alt="Spanish Cuisine">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 text-center">
+                        <img class="img-fluid" src="images/food10.jpg" alt="German Cuisine">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="content mt-100">
+                            <h4>German Cuisine</h4>
+                            <p>German cuisine often has been labeled as stodgy and fatty, which can be attributed to the lack of variety in the rural German countryside until the last 200 years. Germany has benefited from a close association with Italy and France and adopted many of their spices and cooking methods, always with a German twist. Regional cuisines vary according to the geography (mountains, plains, and seas are all represented) and their proximity to waterways, where transportation and trade historically took place. Old World techniques of food preservation through salting, smoking, curing, or pickling is still a common way of preparing fish, meats, and vegetables. If you look at the popular dishes of matjes (pickled herring), sauerbraten (roast beef cured in vinegar and wine), or sauerkraut, you will find ancient cooking methods still in use today.</p>
+                            <a href="https://www.youtube.com/embed/nrf576J4Lg8" target="_blank" class="trailer1">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="end">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h5>Yerkezhan Edgenova BD-2004</h5>
+                        <p>Astana IT Unversity</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script>
+        $(document).ready(function () {
+            $('#btnFadeOut1').click(function () {
+                $('#box1').fadeOut(3000);
+            });
+            $('#btnFadeIn1').click(function () {
+                $('#box1').fadeIn(5000);
+            });
+            $('#btnFadeOut2').click(function () {
+                $('#box2').fadeOut(3000);
+            });
+            $('#btnFadeIn2').click(function () {
+                $('#box2').fadeIn(5000);
+            });
+        });
+    </script>
+</body>
+</html>

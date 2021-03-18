@@ -1,0 +1,160 @@
+html {
+	background-color: grey;
+}
+
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin: 0 auto;
+	padding: 10px 50px;
+	display: block;
+}
+
+header {
+	background-color: darkolivegreen;
+}
+
+nav {
+	font-size: 16px;
+	line-height: 22px;
+	padding: 10px;
+	margin-top: 15px;
+}
+
+nav ul li {
+	display: inline;
+	padding-left: 23px;
+}
+
+nav ul li a {
+	text-decoration-line: none;
+	color: white;
+}
+
+nav ul li a:hover {
+	text-decoration-line: underline;
+	text-decoration-color: chocolate;
+	color: chocolate;
+}
+
+.promo {
+	background-color: chocolate;
+	color: white;
+}
+
+#welcome {
+	padding-top: 5%;
+}
+
+h2, h3, h5 {
+	text-align: center;
+	color: white;
+}
+
+h4 {
+	text-align: center;
+	color: black;
+}
+
+.trailer1 {
+    background: black; 
+    color: #fff; 
+    padding: 1rem 1.5rem; 
+    text-decoration: none; 
+    border-radius: 3px;
+    float: right;
+}
+
+.trailer1:hover {
+	text-decoration-line: underline;
+	text-decoration-color: chocolate;
+	color: chocolate;
+}
+
+.trailer2 {
+    background: black; 
+    color: #fff; 
+    padding: 1rem 1.5rem; 
+    text-decoration: none; 
+    border-radius: 3px;
+    float: left;
+}
+
+.trailer2:hover {
+	text-decoration-line: underline;
+	text-decoration-color: chocolate;
+	color: chocolate;
+}
+
+#onepoint, #twopoint, #threepoint, #end {
+	background-color: darkolivegreen;
+	padding: 20px;
+}
+
+#end p {
+	color: white;
+}
+
+p {
+	text-align: center;
+}
+
+.col-md-8 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.asia-list {
+	background-color: bisque;
+}
+
+.asia-list p {
+	color: black;
+}
+
+.button1 {
+	background-color: chocolate;
+	font-size: 24px;
+	line-height: 45px;
+	color: white;
+	border-width: 2px;
+	border-radius: 5px;
+	padding: 0 15px;
+	margin-top: -10px;
+	float:left;
+}
+
+.button1:hover {
+	border-width: 5px;
+}
+
+.button2 {
+	background-color: chocolate;
+	font-size: 24px;
+	line-height: 45px;
+	color: white;
+	border-width: 2px;
+	border-radius: 5px;
+	padding: 0 15px;
+	margin-top: -10px;
+	float:right;
+}
+
+.button2:hover {
+	border-width: 5px;
+}
+
+.europe-list {
+	background-color: bisque;
+}
+
+.europe-list p {
+	color: black;
+}
+
+#opacity {
+	opacity: 0.5;
+}
+
+#opacity:hover {
+ 	opacity: 1; } 
+}
